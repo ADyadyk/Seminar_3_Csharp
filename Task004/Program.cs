@@ -10,7 +10,7 @@
 //Метод, который запрашивает пятизначное число
 int PutNumber()
 {
-    Console.Write("Введите число: ");
+    Console.Write("Введите пятизначное число: ");
     int result = int.Parse(Console.ReadLine()!);
     return result;
 }
